@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "C:\Users\Arrijith\Documents\GitHub\MiniProject_LTTS\MiniProject_C\3_Implementation\unity\unity.h"
-#include "C:\Users\Arrijith\Documents\GitHub\MiniProject_LTTS\MiniProject_C\3_Implementation\inc\header.h"
-#include "C:\Users\Arrijith\Documents\GitHub\MiniProject_LTTS\MiniProject_C\3_Implementation\unity\unity_internals.h"
+#include "unity.h"
+#include "header.h"
+#include "unity_internals.h"
 
 /* Modify these two lines according to the project */
 
