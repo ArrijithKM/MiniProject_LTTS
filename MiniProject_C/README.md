@@ -1,3 +1,4 @@
+[![C/C++ CI](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/c-cpp.yml)
 # Requirements
 ## Introduction
  
