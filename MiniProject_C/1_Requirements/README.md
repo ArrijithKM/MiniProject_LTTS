@@ -1,7 +1,8 @@
 # Requirements
 
-* Capture all the requirements wrt system, module, interface, integration, testing, Functional and Non-functional
-* Captures Basic Planning of the project through - Sample Gantt Chart attached
+* Tools required to run this project are;
+Codeblocks IDE, command pormpt and basic installation softwares.
+* Gantt Chart attached in the name miniProject_Ganttchart.xlsx
 
-* Tools: MS Excel, MS word or Similar
+* Tools: MS Excel
 
