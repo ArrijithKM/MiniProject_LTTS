@@ -25,5 +25,4 @@ jobs:
     - name: Install gcov 
       run: sudo apt -y install gcovr
     - name: make coverage
-      run: make -C Implementation/ coverage
-© 2021 GitHub, Inc.
+      run: make -C MiniProject_C/3_Implementation/
