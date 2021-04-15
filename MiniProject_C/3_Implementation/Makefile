@@ -23,7 +23,7 @@ else
    ifeq ($(shell uname), Linux)
       RM = rm -rf
       FixPath = $1
-	  EXEC = out
+	  	EXEC = out
    endif
 endif
 
@@ -46,9 +46,12 @@ coverage:${PROJECT_NAME}
 	gcov -a $(SRC)
 
 doc:
-	make -C Doxyfile.txt
+	make -C doc
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
-
+clean:
+	$(RM) $(call FixPath,$(BUILD_DIR)/*)
+	make clean -C doc
+	rmdir $(BUILD_DIR) doc/html
 
 	
