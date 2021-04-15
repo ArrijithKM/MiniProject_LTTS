@@ -1,7 +1,7 @@
 /**
  * @file driver.c
  * @author Arrijith KM (arrijithkm@gmail.com)
- * @brief Driver file to run the application.
+ * @brief Driver file to run the application and function calls
  * @version 0.1
  * @date 2021-04-15
  * 
