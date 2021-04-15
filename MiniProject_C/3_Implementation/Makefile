@@ -49,7 +49,5 @@ doc:
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
-clean:
-	$(RM) $(call FixPath,$(BUILD_DIR)/*)
-	make clean -C doc
-	rmdir $(BUILD_DIR) doc/html
+
+	

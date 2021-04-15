@@ -48,7 +48,7 @@ void test_corona3(void) {
   
 }
 void test_corona4(void) {
-  TEST_ASSERT_EQUAL(1, corona("ND"));
+  TEST_ASSERT_EQUAL(0, corona("ND"));
   
 }
 
