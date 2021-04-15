@@ -11,7 +11,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"C:\Users\Arrijith\Desktop\LTTS\MiniProject_C\3_Implementation\inc\header.h"
+#include"header.h"
 
 //char currentCustomer[100];
 /**
