@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "C:\\Users\\Arrijith\\Documents\\GitHub\\MiniProject_LTTS\\MiniProject_C\\3_Implementation\\inc",
-                "${workspaceFolder}/MiniProject_C/3_Implementation/inc"
+                "${workspaceFolder}/MiniProject_C/3_Implementation/inc",
+                "${workspaceFolder}/MiniProject_C/3_Implementation/unity"
             ],
             "defines": [
                 "_DEBUG",
