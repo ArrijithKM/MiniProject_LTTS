@@ -1,4 +1,5 @@
-[![C/C++ CI](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/c-cpp.yml) [![cppcheck-action](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/cppcheck.yml) [![Unit testing](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/unit%20test.yml/badge.svg)](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/unit%20test.yml)
+[![C/C++ CI](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/c-cpp.yml) [![cppcheck-action](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/cppcheck.yml) [![Unit testing](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/unit%20test.yml/badge.svg)](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/unit%20test.yml) 
+[![CI](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/main.yml/badge.svg)](https://github.com/ArrijithKM/MiniProject_LTTS/actions/workflows/main.yml)
 # Requirements
 ## Introduction
  
