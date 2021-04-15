@@ -1,10 +1,24 @@
+/**
+ * @file driver.c
+ * @author Arrijith KM (arrijithkm@gmail.com)
+ * @brief Driver file to run the application.
+ * @version 0.1
+ * @date 2021-04-15
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 #include"C:\Users\Arrijith\Desktop\LTTS\MiniProject_C\3_Implementation\inc\header.h"
 
 state status=out;
-
+/**
+ * @brief Main function to call each and call the feature function
+ * 
+ * @return int 
+ */
 int main()
 {
     printf("Tourism Management Project\n");

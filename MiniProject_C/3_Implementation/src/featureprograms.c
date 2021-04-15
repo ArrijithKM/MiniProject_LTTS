@@ -1,10 +1,25 @@
+/**
+ * @file featureprograms.c
+ * @author Arrijith KM (arrijithkm@gmail.com)
+ * @brief Basic functions file in the application
+ * @version 0.1
+ * @date 2021-04-15
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 #include"C:\Users\Arrijith\Desktop\LTTS\MiniProject_C\3_Implementation\inc\header.h"
 
 //char currentCustomer[100];
-
+/**
+ * @brief Function to update details of Customer in text file
+ * 
+ * @param p 
+ * @return Customer* 
+ */
 Customer* List(Customer *p)
 {
     Customer* t,*ptr,temp;
@@ -41,7 +56,11 @@ p=ptr;
 fclose(fp);
     return t;
 }
-
+/**
+ * @brief Filling details in text file
+ * 
+ * @param p 
+ */
 void writefile(Customer *p)
 {
     FILE *fp;
@@ -53,7 +72,12 @@ void writefile(Customer *p)
     }
     fclose(fp);
 }
-
+/**
+ * @brief Adding a new customer detail
+ * 
+ * @param p 
+ * @return Customer* 
+ */
 Customer* NewCustomer(Customer* p)
 {
     Customer *t;
@@ -96,13 +120,21 @@ Customer* NewCustomer(Customer* p)
     writefile(t);
     return t;
 }
-
+/**
+ * @brief Display function to display the brochure
+ * 
+ */
 void Brochure()
 {
     system("CLS");
     printf("\tPRICE LIST\n=============================\n1. LL - Leh Ladakh - Rs 40000\n2. AS - Assam - Rs 60000\n3. SK - Sri Lanka - Rs 25000\n4. SHM - Shmila - Rs 38000\n"
        "5. AND - Andaman and Nicobar - Rs 120000\n6. BHB - Bhubaneshwar - Rs 10000\n7. AG - Akash Ganga - Rs 30000\n8. ND - New Delhi - Rs 32000\n9. RJ - Rajastan - Rs 45000\n10. SI - South India - Rs 250000\n");
 }
+/**
+ * @brief Checking for an existing customer
+ * 
+ * @param p 
+ */
 void Check(Customer *p)
 {
     while(p!=NULL)
@@ -120,7 +152,11 @@ void Check(Customer *p)
     total=(p->price)*(p->tick);
     printf("You have booked %d tickets\nSo total amt is %0.2f\n",p->tick,total);
 }
-
+/**
+ * @brief Function to login the customer
+ * 
+ * @param p 
+ */
 void LoginCustomer(Customer* p)
 {
     char name[100];
@@ -154,11 +190,10 @@ void LoginCustomer(Customer* p)
 }
 
 //char place[100];
-
-
-
-
-
+/**
+ * @brief Function to logout the customer
+ * 
+ */
 void logout()
 {
     if(status==out || strcmp(currentCustomer,"\0")==0)
@@ -170,7 +205,10 @@ void logout()
     status=out;
     printf("You have been successfully logged out\n");
 }
-
+/**
+ * @brief Function to exit the application
+ * 
+ */
 void exitprog()
 {
     printf("Exiting...\nPress Enter to exit");

@@ -1,7 +1,22 @@
+/**
+ * @file corona.c
+ * @author Arrijith KM (arrijithkm@gmail.com)
+ * @brief Additional featured file to check corona before booking
+ * @version 0.1
+ * @date 2021-04-15
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 #include"C:\Users\Arrijith\Desktop\LTTS\MiniProject_C\3_Implementation\inc\header.h"
+/**
+ * @brief Function to Book tickets
+ * 
+ * @param p 
+ */
 
 void bookplace(Customer *p)
 {
@@ -28,6 +43,7 @@ void bookplace(Customer *p)
     	scanf(" %[^\n]s",place);
     if(corona(place))
     {
+    printf("Selected Place is safe You can proceed\n");
     char choice;
     fflush(stdin);
     printf("\nWould You Like to Confirm Booking?\n1 - Yes\n2 - No\n");
@@ -103,7 +119,12 @@ void bookplace(Customer *p)
 	}
    
 }
-
+/**
+ * @brief Function to check CORONA
+ * 
+ * @param place 
+ * @return int 
+ */
 int corona(char *place)
 {
 		if(strcmp(place,"AS")==0)

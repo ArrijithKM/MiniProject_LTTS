@@ -1,3 +1,4 @@
+
 PROJ_NAME = tour
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
@@ -45,7 +46,7 @@ coverage:${PROJECT_NAME}
 	gcov -a $(SRC)
 
 doc:
-	make -C doc
+	make -C Doxyfile.txt
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 

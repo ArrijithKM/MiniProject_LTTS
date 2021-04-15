@@ -1,6 +1,18 @@
-
+/**
+ * @file header.h
+ * @author Arrijith KM (arrijithkm@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-15
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef functions
 #define functions
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
     
     typedef enum {out,in}state;
 	extern state status;
