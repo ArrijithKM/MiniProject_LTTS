@@ -40,8 +40,7 @@ The name of Tourist place and Rate for each place is listed.
 * Preventing customers from selecting CORONA afftected places. 
 
 
-## SWOT ANALYSIS
-![SWOT Analysis](swot.png)
+
 
 
 # 4W&#39;s and 1&#39;H
