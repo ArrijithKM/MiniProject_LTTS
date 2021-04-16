@@ -26,11 +26,11 @@ Pre-planned Tour makes it very safe and healthier manner.
 * Selected Place
 * Corona Affected Database
 
-## Defining Our System
+## Defining the project
 This project focuses on the following things;
 * Getting Customer details for logging In.
 * Tourism Ticket booking.
-* Checking whether teh selected place is CORONA affected or not.
+* Checking whether the selected place is CORONA affected or not.
 
 ### Project Process
 The name of Tourist place and Rate for each place is listed.
@@ -41,7 +41,7 @@ The name of Tourist place and Rate for each place is listed.
 
 
 ## SWOT ANALYSIS
-![SWOT Analysis](swot.png)
+
 
 
 # 4W&#39;s and 1&#39;H
