@@ -11,11 +11,11 @@
 * Selected Place
 * Corona Affected Database
 
-## Defining Our System
+## Defining the Project
 This project focuses on the following things;
 * Getting Customer details for logging In.
-* Tourism Ticket booking.
-* Checking whether teh selected place is CORONA affected or not.
+* Tourist Place Ticket booking.
+* Checking whether the selected place is CORONA affected or not.
 
 ### Project Process
 The name of Tourist place and Rate for each place is listed.
@@ -23,9 +23,9 @@ The name of Tourist place and Rate for each place is listed.
 * Continous checking of Corona affected places.
 * Ticket Booking.
 * Preventing customers from selecting CORONA afftected places. 
-
+## Structural Diagram:
 ![Structural Diagram](https://user-images.githubusercontent.com/80767144/114964772-ffd9b580-9e8c-11eb-8467-fa9db10b0b3d.png)
-
+## Use Case Diagram:
 ![UseCase Diagram (1)](https://user-images.githubusercontent.com/80767144/114964770-fd775b80-9e8c-11eb-9ec8-5344179c58ea.png)
 
 ID | Description | Status (Implemented/Future)
