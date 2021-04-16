@@ -41,7 +41,7 @@ The name of Tourist place and Rate for each place is listed.
 
 
 ## SWOT ANALYSIS
-
+![Swot analysis](https://user-images.githubusercontent.com/80767144/114968141-5ea22d80-9e93-11eb-8fd5-c9b88b3b6710.png)
 
 
 # 4W&#39;s and 1&#39;H
