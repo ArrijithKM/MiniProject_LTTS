@@ -1,26 +1,10 @@
-
-# Requirements
-## Introduction
+#Project Description
  
 * Toursim has become a important aspect of happiness in everyone's life. In these present day the tourism has increased a lot. 
 * Internationally there were just 25 million tourist arrivals in 1950. 68 years later this number has increased to 1.4 billion international arrivals per year. This is a 56-fold increase. "This statistic was referred from "https://ourworldindata.org/tourism"
 * But CORONA made people to stay in their homes. But still there are many places which are not corona affected. So this project helps people to look to places where they can enjoy their tour in Healthier way.
 * The refference project was taken from "https://itsourcecode.com/free-projects/c-projects/tourism-management-system-project-in-c-with-source-code/"
  
-## Research
-
-Pre-planned Tour makes it very safe and healthier manner.
-
-### Benefits
-#### Avoiding danger
-* Continous monitoring of CORONA affected tourist areas.
-* Notifies when a selected area is CORONA affected or not.
-#### Increased safeness 
-* Automatic ticket booking for NON CORONA tourist places. 
-#### Management in healthier version
-* This project makes sure that selected place is CORONA affected or not.
-
-
 ## Cost and Features
 
 * Customer details
@@ -40,32 +24,9 @@ The name of Tourist place and Rate for each place is listed.
 * Ticket Booking.
 * Preventing customers from selecting CORONA afftected places. 
 
+![Structural Diagram](https://user-images.githubusercontent.com/80767144/114964772-ffd9b580-9e8c-11eb-8467-fa9db10b0b3d.png)
 
-
-
-
-# 4W&#39;s and 1&#39;H
-
-
-## What is the mini project about?
-This project is about developing a system to generate Ticket booking and continously monitoring the corona status of tourist places. 
-
-## Why is it developed?
-The system is developed to ensure the customers to select a proper place and enoy their tour safely.
-
-## When will it be ready for use?
-April 16,2021
-
-
-## Where is this mini project applicable?
-Every tourist angents can use this project in their website. Like eg. Makemytrip, Agoda etc. 
-
-## How is it implemented?
-The system is developed by acquring the details of customer in a text fle and corona affected places. Such that it can show wheter the selected place is corona affected or not.
-
-# Detail requirements
-## High Level Requirements:
-
+![UseCase Diagram (1)](https://user-images.githubusercontent.com/80767144/114964770-fd775b80-9e8c-11eb-9ec8-5344179c58ea.png)
 
 ID | Description | Status (Implemented/Future)
 ----- | ------------|----------:
