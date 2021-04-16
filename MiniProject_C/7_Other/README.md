@@ -1,4 +1,4 @@
 # other
 
-* Add any other folders or files which are created for the project
+* Customer list stored in text file
 
