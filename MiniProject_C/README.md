@@ -28,6 +28,8 @@ The name of Tourist place and Rate for each place is listed.
 ## Use Case Diagram:
 ![UseCase Diagram (1)](https://user-images.githubusercontent.com/80767144/114964770-fd775b80-9e8c-11eb-9ec8-5344179c58ea.png)
 
+## High Level Requirements:
+
 ID | Description | Status (Implemented/Future)
 ----- | ------------|----------:
 HR01  | User can give their credentials to create account | Implemented |
