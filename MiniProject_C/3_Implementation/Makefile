@@ -27,7 +27,7 @@ else
    ifeq ($(shell uname), Linux)
       RM = rm -rf
       FixPath = $1
-      EXEC = out
+	  	EXEC = out
    endif
 endif
 
@@ -47,7 +47,7 @@ test: $(SRC) $(TEST_SRC)
 coverage:$(PROECT_NAME)
 	gcc -fprofile-arcs -ftest-coverage -fPIC $(SRC) $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	gcov -abcfu $(DIR)
+	gcov -abcfu $(SRC)
 	gcov -r
 
 doc:
